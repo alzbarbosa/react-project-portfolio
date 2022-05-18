@@ -14,7 +14,7 @@ const Homepage = () => {
                 Hi, I am <strong>Andre Barbosa</strong>
             </h1>
             <p className="subtitle-intro">React dev</p>
-            <img src={image2} alt="a picture of Jane Smith smiling" className="intro__img" />
+            <img src={image2} alt="me" className="intro__img" />
         </section>
         <section>
             <p className="homepage-introduction">I'm a React developer looking for new opportunies in my career to create amazing pages and interactive solutions to our customers</p>

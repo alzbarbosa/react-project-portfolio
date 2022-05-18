@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react"
+import { useState} from "react"
 import { NavLink } from "react-router-dom"
 
 import {BiMessageDetail} from "react-icons/bi"
@@ -6,17 +6,12 @@ import {FaBriefcase} from "react-icons/fa"
 import {AiOutlineHome} from "react-icons/ai"
 import {BsInfoCircle} from "react-icons/bs"
 import {FiUser} from "react-icons/fi"
-import {VscColorMode} from "react-icons/vsc"
 
 
 const Sidebar = () => {
   const [displayText, setDisplayText] = useState(false)
 
   const showAndHide = displayText? "show-text" : "hide-text"
-
-  const getThemeMode = () => {
-    document.body.classList.toggle("light-mode")
-  }
 
   return (
       <>
