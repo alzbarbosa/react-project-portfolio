@@ -34,7 +34,7 @@ const Contact = () => {
     </div>
     </div>
     <div className="container-icons-contact">
-        <a href="www.linkedin.com/in/andre-barbosa-b4933114a"><BsLinkedin className="icon-contact"/></a>
+        <a href="https://www.linkedin.com/in/andre-barbosa-b4933114a/"><BsLinkedin className="icon-contact"/></a>
         <a href="https://github.com/alzbarbosa"><BsGithub className="icon-contact"/></a>
         <a href="https://www.facebook.com/profile.php?id=100022024270844"><BsFacebook className="icon-contact"/></a>
         <a href="https://codepen.io/aquarius83"><FaCodepen className="icon-contact"/></a>
