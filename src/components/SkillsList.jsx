@@ -6,7 +6,7 @@ const SkillsList = () => {
     <>
     <section>
         <h5>Skills learned so far</h5>
-        <h2>My Skills of coding</h2>
+        <h2>My Coding Skills</h2>
 
         <div className="skills-container">
 

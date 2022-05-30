@@ -15,25 +15,25 @@ const Sidebar = () => {
 
   return (
       <>
-        <div className="controls">
+        <div className="controls" onMouseOver={()=>setDisplayText(true)} onMouseOut={()=> setDisplayText(false)}>
             <div className="control-container">
-            <NavLink  className={(navigationData) => (navigationData.isActive ? 'control active-btn' : 'control')} to="/"><AiOutlineHome onMouseOver={()=>setDisplayText(true)} onMouseOut={()=> setDisplayText(false)}/></NavLink>
+            <NavLink  className={(navigationData) => (navigationData.isActive ? 'control active-btn' : 'control')} to="/"><AiOutlineHome /></NavLink>
             <p className={`control-text ${showAndHide}`}>Home</p>
             </div>
             <div className="control-container">
-             <NavLink className={(navigationData) => (navigationData.isActive ? 'control active-btn' : 'control')} to="/curriculum"><BsInfoCircle  onMouseOver={()=>setDisplayText(true)} onMouseOut={()=> setDisplayText(false)}/></NavLink>
+             <NavLink className={(navigationData) => (navigationData.isActive ? 'control active-btn' : 'control')} to="/curriculum"><BsInfoCircle  /></NavLink>
              <p className={`control-text ${showAndHide}`}>Curriculum</p>
             </div>
             <div className="control-container">
-            <NavLink className={(navigationData) => (navigationData.isActive ? 'control active-btn' : 'control')} to="/portfolio"><FaBriefcase  onMouseOver={()=>setDisplayText(true)} onMouseOut={()=> setDisplayText(false)}/></NavLink>
+            <NavLink className={(navigationData) => (navigationData.isActive ? 'control active-btn' : 'control')} to="/portfolio"><FaBriefcase /></NavLink>
             <p className={`control-text ${showAndHide}`}>Portfolio</p>
             </div>
             <div className="control-container">
-                <NavLink className={(navigationData) => (navigationData.isActive ? 'control active-btn' : 'control')} to="/aboutme"><FiUser  onMouseOver={()=>setDisplayText(true)} onMouseOut={()=> setDisplayText(false)}/></NavLink>
+                <NavLink className={(navigationData) => (navigationData.isActive ? 'control active-btn' : 'control')} to="/aboutme"><FiUser  /></NavLink>
                 <p className={`control-text ${showAndHide}`}>About Me</p>
             </div>
             <div className="control-container">
-               <NavLink className={(navigationData) => (navigationData.isActive ? 'control active-btn' : 'control')} to="/contact"><BiMessageDetail  onMouseOver={()=>setDisplayText(true)} onMouseOut={()=> setDisplayText(false)}/></NavLink>
+               <NavLink className={(navigationData) => (navigationData.isActive ? 'control active-btn' : 'control')} to="/contact"><BiMessageDetail /></NavLink>
                <p className={`control-text ${showAndHide}`}>Contact</p>
             </div>
         </div>
