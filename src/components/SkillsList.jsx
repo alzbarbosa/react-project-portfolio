@@ -59,6 +59,16 @@ const SkillsList = () => {
                     level="Advanced"
                     />
 
+                    <SkillDetails 
+                    name="Firebase"
+                    level="Advanced"
+                    />
+
+                    <SkillDetails 
+                    name="Redux"
+                    level="Advanced"
+                    />
+
                 </div>
 
             </div>

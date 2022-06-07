@@ -3,11 +3,10 @@ import Sidebar from "../components/Sidebar"
 import imageCourier from "../img/courier.png"
 import imageGames from "../img/games.png"
 import imageApp from "../img/app.png"
-import imageCalculator from "../img/calculator.png"
 import imageNature from "../img/nature.png"
 import imageDashboard from "../img/dashboard.png"
-import imageCounter from "../img/counter.png"
 import imageCountdown from "../img/countdown.png"
+import imageShop from "../img/shop.png"
 
 
 const Portfolio = () => {
@@ -21,6 +20,12 @@ const Portfolio = () => {
             Here is some of my work that I've done in various programming languages.
         </p>
     <div className="portfolios">
+        <PortifolioItem link="https://react-shop-sportskingdom.netlify.app/" 
+        repos="https://github.com/alzbarbosa/react-shop-sportballs.git"
+        name="React Project Shop"
+        text="Creating a e-commerce page using React/Firebase"
+        image={imageShop}/>
+
         <PortifolioItem link="https://react-project-courier.herokuapp.com/" 
         repos="https://github.com/alzbarbosa/React-Project-Courier.git"
         name="React Project Courier"
@@ -57,17 +62,6 @@ const Portfolio = () => {
         text="A dashboard to update the user about weather, Canadian currency, time and having access to Github"
         image={imageDashboard}/>
 
-        <PortifolioItem link="https://js-counter-people.netlify.app/" 
-        repos="https://github.com/alzbarbosa/Project-Counter-People.git"
-        name="JS - Counter People"
-        text="A tool to count people going inside and out of an establishment"
-        image={imageCounter}/>
-    
-        <PortifolioItem link="https://js-calculator-project.netlify.app/" 
-        repos="https://github.com/alzbarbosa/Javascript---Calculator.git"
-        name="JS - Calculator"
-        text="Calculator using javascript"
-        image={imageCalculator}/>
     </div>
     </section>   
     <Sidebar />
