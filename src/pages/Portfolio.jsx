@@ -5,7 +5,7 @@ import imageGames from "../img/games.png"
 import imageApp from "../img/app.png"
 import imageNature from "../img/nature.png"
 import imageDashboard from "../img/dashboard.png"
-import imageCountdown from "../img/countdown.png"
+import imageSearch from "../img/search.png"
 import imageShop from "../img/shop.png"
 
 
@@ -26,6 +26,12 @@ const Portfolio = () => {
         text="Creating a e-commerce page using React/Firebase"
         image={imageShop}/>
 
+        <PortifolioItem link="https://react-search-userobots.netlify.app/" 
+        repos="https://github.com/alzbarbosa/react-user-search.git"
+        name="React Project Search User"
+        text="A tool where you can search for users and add tags"
+        image={imageSearch}/>
+
         <PortifolioItem link="https://react-project-courier.herokuapp.com/" 
         repos="https://github.com/alzbarbosa/React-Project-Courier.git"
         name="React Project Courier"
@@ -43,12 +49,6 @@ const Portfolio = () => {
         name="React Project Games"
         text="Building 3 different games using React"
         image={imageGames}/>
-
-        <PortifolioItem link="https://countdown-days-app.netlify.app" 
-        repos="https://github.com/alzbarbosa/Javascript---Countdown-App.git"
-        name="JS - Countdown and find days"
-        text="A tool where the user can start a countdown or find out how many days from one date to another"
-        image={imageCountdown}/>
 
         <PortifolioItem link="https://nature-lovers.netlify.app/" 
         repos="https://github.com/alzbarbosa/Javascript---Nature-Review.git"
