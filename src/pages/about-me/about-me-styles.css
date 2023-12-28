@@ -1,0 +1,23 @@
+/*===============
+  About me
+===============*/
+.aboutme-info {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.aboutme-container p {
+  padding: 0.5em 0;
+}
+
+.quotation {
+  padding-top: 5em;
+  text-align: center;
+}
+
+.quotation-name {
+  margin-top: 1em;
+}

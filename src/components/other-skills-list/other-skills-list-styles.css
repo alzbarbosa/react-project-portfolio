@@ -1,0 +1,27 @@
+/*===============
+ OtherSkilsList
+===============*/
+.skills-text-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #27ae60;
+  padding: 2.4em 5em;
+  border-radius: 2em;
+  border: 1px solid transparent;
+}
+
+.skills-text-container:hover {
+  background: transparent;
+  border-color: #f56692;
+  cursor: default;
+}
+
+/*===============
+  Media Queries
+===============*/
+@media only screen and (max-width: 768px) {
+  .skills-text-container {
+    padding: 2em;
+    margin: 0 auto;
+  }
+}

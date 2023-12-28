@@ -1,0 +1,18 @@
+/*===============
+  SkillItem
+===============*/
+.skill-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1 rem;
+}
+
+.skill-icon-checked {
+  display: flex;
+  align-items: center;
+  padding: 0.5em;
+}
+
+.skill-text {
+  padding-left: 0.25em;
+}

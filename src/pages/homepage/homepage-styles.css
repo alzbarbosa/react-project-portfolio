@@ -1,0 +1,92 @@
+/*===============
+  Homepage
+===============*/
+.intro {
+  position: relative;
+}
+
+.intro__img {
+  box-shadow: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25),
+    0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
+}
+
+.title-intro {
+  font-weight: 300;
+  margin-bottom: 0.25em;
+}
+
+.subtitle-intro {
+  display: inline-block;
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.title-intro strong {
+  display: block;
+}
+
+.subtitle-intro {
+  background: #16e0bd;
+  padding: 0.25em 1em;
+  margin-bottom: 1em;
+}
+
+.homepage-introduction {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.intro {
+  display: grid;
+  width: min-content;
+  margin: 0 auto;
+  grid-column-gap: 1em;
+  grid-template-areas:
+    "img title"
+    "img subtitle";
+  grid-template-columns: min-content max-content;
+}
+
+.intro__img {
+  grid-area: img;
+  min-width: 250px;
+  position: relative;
+  z-index: 2;
+}
+
+.subtitle-intro {
+  align-self: start;
+  grid-column: -1 / 1;
+  grid-row: 2;
+  text-align: right;
+  position: relative;
+  left: -1.5em;
+  width: calc(100% + 4em);
+}
+
+/*===============
+  Media Queries
+===============*/
+@media only screen and (max-width: 768px) {
+  .intro {
+    display: block;
+  }
+
+  .intro__img {
+    width: 100%;
+  }
+
+  .title-intro {
+    font-size: 1.5rem;
+  }
+
+  .subtitle-intro {
+    text-align: center;
+    width: 100%;
+  }
+
+  .homepage-container {
+    padding: 1em;
+  }
+}

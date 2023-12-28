@@ -1,0 +1,24 @@
+/*===============
+  Portfolio
+===============*/
+.port-text {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.portfolios {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  margin-top: 3rem;
+}
+
+/*===============
+  Media Queries
+===============*/
+@media only screen and (max-width: 768px) {
+  .portfolios {
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
+}

@@ -1,0 +1,54 @@
+/*===============
+ CodeSkilsList
+===============*/
+.skills-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+}
+
+.skills-container > div {
+  background-color: #27ae60;
+  padding: 2.4em 5em;
+  border-radius: 2em;
+  border: 1px solid transparent;
+}
+
+.skills-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 2em;
+}
+
+.skills-container > div:hover {
+  background: transparent;
+  border-color: #f56692;
+  cursor: default;
+}
+
+.code-skills-title {
+  text-align: center;
+  margin-bottom: 2em;
+  color: orange;
+}
+
+/*===============
+  Media Queries
+===============*/
+@media only screen and (max-width: 768px) {
+  .code-skills-list-container {
+    margin: 0 auto;
+  }
+
+  .skills-container {
+    grid-template-columns: 1fr;
+  }
+
+  .skills-container > div {
+    padding: 2em;
+  }
+
+  .skills-content {
+    grid-template-columns: 1fr;
+  }
+}
