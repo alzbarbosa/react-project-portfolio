@@ -2,7 +2,7 @@ import PortfolioItem from "../../components/portfolio-item/PortfolioItem";
 
 import "./portfolio-styles.css";
 
-import imageCourier from "../../assets/images/courier.png";
+import imagePigGame from "../../assets/images/piggame.png";
 import imageGames from "../../assets/images/games.png";
 import imageApp from "../../assets/images/app.png";
 import imageNature from "../../assets/images/nature.png";
@@ -37,6 +37,13 @@ const portfolioItems = [
     name: "Python Contact Book",
     text: "Creating a contact book using Python/PyQt6",
     image: imageContactBook,
+  },
+  {
+    link: "https://js-piggame-2024.netlify.app/",
+    repos: "https://github.com/alzbarbosa/js-pig-game",
+    name: "JS Pig Game",
+    text: "Creating a dice game using Javascript",
+    image: imagePigGame,
   },
   {
     link: "https://react-project-apps.netlify.app",
